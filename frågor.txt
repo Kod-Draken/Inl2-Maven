@@ -1,0 +1,7 @@
+mvn compile: Kompilerar Java-klassfilerna i src/main/java och skapar .class-filer i target-katalogen
+mvn test: Kör alla test-klasser i src/test/java med testramverket (JUnit).
+mvn javadoc:javadoc: Genererar dokumentation (Javadoc) för alla klasser. (Varnar om dokumentation saknas)
+mvn package: Packeterar den kompilerade koden till en .jar-fil, som sparas i target-katalogen.
+mvn site: Skapar en projekt-rapport (även testresultat) i target/site-katalogen.
+mvn clean: Rensar target-katalogen för att förbereda för en ny build.
+mvn surefire-report:report: Skapar detaljerad rapport för tester.
